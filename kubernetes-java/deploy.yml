@@ -17,6 +17,7 @@ spec:
       containers:
       - name: tomcat
         image: shankudevops/jenkinstraining
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
 ---
